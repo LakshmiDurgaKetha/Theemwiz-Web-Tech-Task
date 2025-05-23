@@ -1,0 +1,499 @@
+/* Header styles starts */
+.header {
+    background-color: #28293e;
+    color: white;
+}
+.navbar-toggler {
+    background-color: rgb(255 251 255) !important;
+}
+.header ul li a{
+    color: white;
+    margin-right: 99px;
+    font-size: 14px;
+}
+.header ul li a:hover{
+    text-transform: uppercase;
+    border: 1px solid ;
+    color: white;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    align-items: center;
+}
+.navbar-expand-lg {
+    margin-bottom: 50px;
+}
+.header .modernStudio{
+    /* background-image: url(../images/Star.png); */
+    background-repeat: no-repeat;
+}
+.aboutModern{
+    position: relative;
+    z-index: 0;
+}
+.starImg {
+    top: 7px;
+    position: absolute;
+    left: 37%;
+    z-index: -1;
+}
+p.help {
+    margin: 0px;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 70px;
+}
+p.agency {
+    margin: 2px 0px;
+    color: #9697a1;
+}
+p.metaInc {
+    color: white;
+    position: relative;
+    left: 11%;
+    top: -17px;
+}
+.header button:hover {
+    background-color: #ef6d58;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: bold;
+}
+
+
+/* Header styles end */
+
+/* Banner styles starts */
+
+.banner {
+    background-color: #fdf0e9;
+    padding: 20px 0px;
+}
+.banner .about{
+    align-items: center;
+    justify-content: center;
+}
+.bannerAbout,.bannerExp,.bannerPro,.bannerAbi,.making,.work,.technical{
+    margin-bottom: 0px;
+}
+p.bannerAbout {
+    color: #ef6d58;
+}
+p.bannerExp {
+    color: #391400;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 19px;
+    margin: 40px 0px;
+}
+p.bannerPro, .bannerAbi {
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #7f6454;
+}
+p.bannerPro{
+    color: #391400 !important;
+    font-weight: bold;
+}
+.banner .aboutButton {
+    background-color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 12px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #391400;
+    width: 30%;
+}
+.col-lg-4.aboutCompany {
+    border: 1px solid #f6d9ca;
+    padding: 40px;
+}
+p.m-0.percent {
+    font-size: 47px;
+    font-weight: bold;
+    color: #391400;
+}
+p.years {
+    color: #4c2916;
+}
+p.work {
+    letter-spacing: 1px;
+    color: #ef6d58;
+}
+p.making {
+    font-size: 41px;
+    line-height: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #391400;
+}
+p.technical {
+    color: #7f6454;
+}
+.services {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: -9px;
+    color: #391400;
+}
+span.numbers {
+    font-size: 52px;
+    font-weight: bold;
+    color: #391400;
+}
+ .videoImage{
+    position: relative;
+ }
+.play {
+    position: absolute;
+    left: 29%;
+    bottom: 29%;
+}
+.time {
+    position: absolute;
+    top: 86%;
+    left: 3%;
+}
+.logosMobile{
+    display: none;
+}
+.numbersReadMoreBtn {
+    border: none !important;
+    padding: 3px;
+    color: #391400;
+    background-color: #fdf0e9 !important;
+    font-size: 25px;
+}
+
+
+
+/* Banner styles ends */
+
+
+/* portfolioSection starts */
+.portfolio {
+    color: #ef6d58;
+    letter-spacing: 2px;
+}
+.latestWork {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 75px;
+}
+.portfolioSection {
+    background-color: #28293e;
+    color: white;
+}
+.portfolioLists li a {
+    color: #a7bec5 !important;
+    margin-left: 50px;
+}
+sup {
+    top: -12px !important;
+}
+.portfolioImages1 .col-lg-3{
+    flex: 0 0 auto;
+    width: 25%;
+    margin-right: 186px !important;
+}
+.portfolioImages1 {
+    gap: 30px;
+}
+.portfolioSection .nav-link:hover {
+    font-weight: bold;
+    font-size: 18px;
+}
+.portfolioImages1{
+    position: relative;
+}
+.portfolioImages1 .click {
+    position: absolute;
+    bottom: 17%;
+    left: 55px;
+}
+.portfolioImages1 .btn1,.portfolioImages1 .btn2,.portfolioImages2 .btn3,.portfolioImages2 .btn4{
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+    padding: 6px;
+    letter-spacing: -1px;
+}
+.portfolioImages1 .btn1{
+    width: 103%;
+}
+.portfolioImages1 .btn2{
+    width: 60%;
+}
+.portfolioImages2 .btn3 {
+    width: 55%;
+}
+.portfolioImages2 .btn4 {
+    width: 75%;
+}
+p.m-0.design,p.m-0.design1,p.m-0.design2,p.m-0.design3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-left: 0px;
+}
+.portfolioImages1 .click1 {
+    position: absolute;
+    bottom: 103px;
+    right: 42%;
+}
+.portfolioImages2{
+    position: relative;
+}
+.portfolioImages2 .click2 {
+    position: absolute;
+    bottom: 14%;
+    left: 75px;
+}
+.portfolioImages2 .click3 {
+    position: absolute;
+    bottom: 14%;
+    right: 29%;
+}
+.exploreBtn {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #28293e;
+    color: white;
+    width: 13%;
+    font-weight: bold;
+}
+p.getStarted {
+    color: #ef6d58;
+}
+p.faster.m-0 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #391400;
+}
+button.contactBtn {
+    margin: 29px 0px;
+    border: none;
+    background-color: #ef6d58 !important;
+    color: white !important;
+    padding: 12px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.col-lg-4.ladyImg {
+    position: relative;
+    z-index: 0;
+}
+.bgDesignPath {
+    position: absolute;
+    top: 33%;
+    z-index: -1;
+    left: -66px;
+}
+.path {
+    position: absolute;
+    bottom: -139px;
+    left: 25%;
+}
+.helpCompanies{
+    padding-top: 84px;
+}
+.rectangleArea {
+    background-image: url(../images/rectangle.png);
+    margin-top: 8%;
+}
+.iconDiv{
+    position: relative;
+}
+.iconImg {
+    position: absolute;
+    top: -83%;
+}
+/* portfolioSection starts */
+
+
+/* Our teaam starts */
+p.team.m-0 {
+    color: #ef6d58;
+}
+p.designDeveloper.m-0 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+}
+img.employ {
+    border: 1px solid grey;
+    padding: 24px 18px 0px 18px;
+    margin-left: -21px;
+}
+span.designation {
+    color: #adaeb5;
+}
+.teamImages{
+    gap: 6%;
+}
+img.employ.employBella {
+    margin-left: -30px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100%;
+    border: 1px solid grey !important;
+}
+.carousel-indicators .active {
+    background-color: orange !important;
+}
+/* our team ends */
+
+/* pricing plans starts */
+
+.pricesSection {
+    background-color: #fdf0e9;
+}
+p.m-0.price, p.m-0.consultation, .askQue {
+    color: #ef705b;
+    margin-bottom: 15px !important;
+}
+p.m-0.checkPlans, .questions {
+    font-size: 53px;
+    font-weight: bold;
+    line-height: 53px;
+    color: #391400;
+}
+p.free {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 53px;
+    color: #391400;
+}
+p.m-0.digitalMarket,.matter {
+    font-size: 14px;
+}
+.add {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #4d2a17;
+}
+.sub{
+    color: #a69082;
+}
+button.cardBtn {
+    border: none;
+    background-color: white !important;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.col-lg-4.card {
+    background-color: #fdf0e9;
+    padding: 30px 0px 30px 37px;
+}
+.popular{
+    display: none;
+}
+.card:hover .popular{
+    display: block;
+}
+.card:hover{
+    background-color: white;
+}
+.card:hover button.cardBtn {
+    background-color: #ef6d58 !important;
+    color: white !important;
+}
+button.popular {
+    background-color: #ef6d58 !important;
+    border: none;
+    color: white;
+    padding: 5px 19px;
+    border-radius: 25px;
+}
+.faqBtn {
+    border: none;
+    background-color: #fdf0e9;
+}
+button.accordion-button {
+    background-color: white !important;
+    box-shadow: none !important;
+    padding-left: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #fdf0e9 !important;
+
+}
+.card.accordionCard {
+    padding: 15px 20px;
+    background-color: #fdf0e9;
+}
+/* .show:hover{
+    background-color: white;
+} */
+/* pricing plans ends */
+
+/* mapSection starts */
+form input, form select, form textarea {
+    display: block;
+    margin-bottom: 13px;
+    width: 85%;
+    padding: 0px 9px;
+    border: 1px solid #f3d9c3;
+}
+.col-lg-3.card.formCard {
+    padding: 34px 0px 34px 40px;
+}
+.mapSection{
+    background-image: url(../images/map.png) !important;
+    padding: 9%;
+}
+p.mb-3.touch {
+    font-weight: bold;
+}
+select{
+    height: 30px;
+}
+input.submitBtn {
+    padding: 8px;
+    width: 46%;
+    background-color: #ef6d58;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    margin-left: 39%;
+    margin-top: 24px;
+}
+/* mapSection ends */
+
+/* Footer starts */
+.footerSection {
+    background-color: #fdf0e9;
+    padding: 68px 0px 45px 0px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer ul li a {
+    color: #391400;
+    text-decoration: none;
+}
+p.heading2 {
+    color: #f49685;
+}
+p.heading1 {
+    font-weight: bold;
+}
+.status{
+    background-color: #fdf0e9;
+}
+.status p {
+    font-size: 14px;
+    color: #7f6454;
+}
+/* footer ends */
